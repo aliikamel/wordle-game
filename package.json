@@ -1,9 +1,6 @@
 {
   "name": "wordle",
   "version": "1.0.0",
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
-  },
   "homepage": "http://aliikamel.github.io/worlde-game",
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -33,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
