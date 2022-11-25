@@ -61,10 +61,8 @@ function App() {
             setCurrentAttempt({ attempt: currentAttempt.attempt + 1, letterPos: 0 });
         } else {
             alert("Word Not Found")
+            console.log(wordSet)
         }
-
-        console.log(currentAttempt.attempt)
-        console.log(currWord)
 
         if (currWord === correctWord) {
             setGameOver({ gameOver: true, guessedWord: true });
