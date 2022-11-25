@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/worlde-game/static/css/main.9ddac443.css",
-    "main.js": "/worlde-game/static/js/main.7eee9415.js",
-    "static/media/wordle-bank.txt": "/worlde-game/static/media/wordle-bank.d1e180c0e95e817784be.txt",
-    "index.html": "/worlde-game/index.html",
-    "main.9ddac443.css.map": "/worlde-game/static/css/main.9ddac443.css.map",
-    "main.7eee9415.js.map": "/worlde-game/static/js/main.7eee9415.js.map"
+    "main.css": "/wordle-game/static/css/main.9ddac443.css",
+    "main.js": "/wordle-game/static/js/main.3d4d9954.js",
+    "static/media/wordle-bank.txt": "/wordle-game/static/media/wordle-bank.d1e180c0e95e817784be.txt",
+    "index.html": "/wordle-game/index.html",
+    "main.9ddac443.css.map": "/wordle-game/static/css/main.9ddac443.css.map",
+    "main.3d4d9954.js.map": "/wordle-game/static/js/main.3d4d9954.js.map"
   },
   "entrypoints": [
     "static/css/main.9ddac443.css",
-    "static/js/main.7eee9415.js"
+    "static/js/main.3d4d9954.js"
   ]
 }
