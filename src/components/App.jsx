@@ -30,7 +30,6 @@ function App() {
             .then((words) => {
                 setWordSet(words.wordSet)
                 setCorrectWord(words.todaysWord.toUpperCase())
-                console.log(words.todaysWord)
             })
     }, [])
 
@@ -61,7 +60,6 @@ function App() {
             setCurrentAttempt({ attempt: currentAttempt.attempt + 1, letterPos: 0 });
         } else {
             alert("Word Not Found")
-            console.log(wordSet)
         }
 
         if (currWord === correctWord) {
@@ -101,7 +99,7 @@ function App() {
             </AppContext.Provider>
             {gameOver.gameOver &&
                 <div className="gameover-btn">
-                    <a href="/">
+                    <a href="/wordle-game">
                         <button className="btn">Play Again</button>
                     </a>
                 </div>
